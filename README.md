@@ -51,6 +51,7 @@ Rodar migrations e seeds (dentro da pasta da API):
 
 ```bash
 cd apps/api
+pnpm i
 pnpm prisma:generate
 pnpm prisma:migrate
 pnpm prisma:seed   # opcional
@@ -62,7 +63,6 @@ pnpm prisma:seed   # opcional
 
 ```bash
 cd apps/api
-pnpm i
 pnpm start:dev
 ```
 
