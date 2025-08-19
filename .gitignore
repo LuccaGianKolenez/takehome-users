@@ -5,3 +5,4 @@ coverage
 .prisma
 Dockerfile*
 *.log
+.env
