@@ -1,6 +1,6 @@
 'use client';
 import { useQuery } from '@tanstack/react-query';
-import { api } from './lib/api';
+import { api } from '../app/lib/api';
 import Link from 'next/link';
 
 type User = { id:string; name:string; email:string };
