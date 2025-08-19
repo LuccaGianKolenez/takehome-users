@@ -27,7 +27,7 @@ cd takehome-users
 ### 2.1 API (`apps/api/.env`)
 ```env
 PORT=3001
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/usersdb?schema=public
+DATABASE_URL=postgresql://SEU_USUARIO@localhost:5432/usersdb?schema=public
 REDIS_URL=redis://localhost:6379
 ```
 
